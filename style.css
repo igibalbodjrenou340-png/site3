@@ -206,7 +206,6 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     padding-top: 30px;
     background-color: black;
 }
@@ -255,6 +254,15 @@ h3{
     .paragraphs{
         font-size: 13px;
     }
+
+    .bas{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bas1{
+        width: 100%;
+    }
 }
 
 @media (max-width:393px) {
@@ -291,6 +299,15 @@ h3{
 
     .paragraphs{
         font-size: 13px;
+    }
+
+    .bas{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bas1{
+        width: 100%;
     }
 }
 
@@ -329,6 +346,15 @@ h3{
     .paragraphs{
         font-size: 13px;
     }
+
+    .bas{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bas1{
+        width: 100%;
+    }
 }
 
 
@@ -366,5 +392,14 @@ h3{
 
     .paragraphs{
         font-size: 13px;
+    }
+
+    .bas{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bas1{
+        width: 100%;
     }
 }
